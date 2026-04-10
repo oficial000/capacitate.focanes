@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Alias Birthday</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        text-align: center;
+        padding: 20px;
+    }
+    .contenedor {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        max-width: 420px;
+        margin: auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    label {
+        font-weight: bold;
+        display: block;
+        margin-top: 12px;
+        text-align: left;
+    }
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+    button {
+        margin-top: 20px;
+        padding: 12px;
+        width: 100%;
+        background: #253066;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    button:hover {
+        background: #1c254d;
+    }
+</style>
+</head>
+<body>
+
+<div class="contenedor">
+    <h2>Alias Birthday</h2>
+
+    <!-- Imagen pastel -->
+    <img src="https://images.unsplash.com/photo-1542831371-d531d36971e6" alt="Pastel de cumpleaños">
+
+    <!-- Imagen cervezas -->
+    <img src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff" alt="Cervezas">
+
+    <!-- TU IMAGEN (hacker bueno) -->
+    <img src="Copilot_20260410_010359.png" alt="Hacker bueno">
+
+    <form action="#" method="post">
+        <label>Alias:</label>
+        <input type="text" name="alias" required>
+
+        <label>Día de cumpleaños:</label>
+        <input type="number" name="dia" min="1" max="31" required>
+
+        <label>Mes:</label>
+        <select name="mes" required>
+            <option value="">Selecciona un mes</option>
+            <option>Enero</option>
+            <option>Febrero</option>
+            <option>Marzo</option>
+            <option>Abril</option>
+            <option>Mayo</option>
+            <option>Junio</option>
+            <option>Julio</option>
+            <option>Agosto</option>
+            <option>Septiembre</option>
+            <option>Octubre</option>
+            <option>Noviembre</option>
+            <option>Diciembre</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+</body>
+</html>
